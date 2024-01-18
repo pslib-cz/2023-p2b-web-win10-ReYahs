@@ -1,0 +1,53 @@
+.start-panel {
+    display: grid;
+    grid-template-columns: 50px minmax(170px, auto) 500px;
+    gap: 5px;
+}
+.start-panel__icons {
+    display: grid;
+    grid-template-rows: 5fr;
+}
+.start-panel__grid {
+    display: grid;
+    grid-template-areas: ;
+    grid-auto-rows: auto;
+}
+.apps--office {
+
+}
+.apps--web {
+
+}
+.apps--other {
+
+}
+.apps__grid {
+
+}
+.app--g2x2 {
+
+}
+.app--g2x1 {
+
+}
+.app--g1x2 {
+
+}
+.app--off-3 {
+
+}
+.app--off-4 {
+
+}
+.app--off-5 {
+
+}
+.app--in-3 {
+
+}
+.app--fun-2 {
+
+}
+.app--fun-3 {
+
+}
