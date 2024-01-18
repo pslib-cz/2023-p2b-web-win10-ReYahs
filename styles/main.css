@@ -9,20 +9,24 @@
 }
 .start-panel__grid {
     display: grid;
-    grid-template-areas: ;
-    grid-auto-rows: auto;
+    grid-template-areas:        "office other"
+                                "web other";
+    grid-auto-rows: min-content;
 }
 .apps--office {
-
+    display: grid;
+    grid-area: office;
 }
 .apps--web {
-
+    display: grid;
+    grid-area: web;
 }
 .apps--other {
-
+    display: grid;
+    grid-area: other;
 }
 .apps__grid {
-
+    grid-template-columns: repeat(6, 50px);
 }
 .app--g2x2 {
 
